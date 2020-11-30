@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+.classeTest {
+    position: absolute;
+    left: 20rem;
+    top: 0;
+    font-size: 30rem;
+    color: cadetblue;
+    background-color: pink;
+    border: 1px solid lightgray;
+}
+
