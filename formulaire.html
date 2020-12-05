@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/940412168c.js" crossorigin="anonymous"></script>
+    <style>
+        label , input ,textarea ,select {
+            display: block;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="#">
+        <label for="nom">nom</label>
+        <input type="text" placeholder="votre nom">
+
+        <label for="prenom">prenom</label>
+        <input type="text" placeholder="votre prenom">
+
+        <label for="password">password</label>
+        <input type="password" id="password">
+
+        <label for="email">email</label>
+        <input type="email" id="email">
+
+        <label for="area">ton texte</label>
+        <textarea name="area" id="area" cols="30" rows="10"></textarea>
+
+        <span id="max"></span>
+
+        <label for="select">select</label>
+        <select type="select" id="select">
+            <option value="value 1">value 1</option>
+            <option value="value 2">value 2</option>
+            <option value="value 3">value 3</option>
+            <option value="value 4">value 4</option>
+            <option value="value 5">value 5</option>
+        </select>
+
+        <input type="submit" value="envoyer" id="envoyer">
+
+    </form>
+
+
+
+
+    <script src="JS/formulaire.js"></script>
+</body>
+</html>
